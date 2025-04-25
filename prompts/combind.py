@@ -11,7 +11,7 @@ if not hasattr(threading.Thread, 'isAlive'):
     threading.Thread.isAlive = threading.Thread.is_alive
 
 
-def process_files(input_dir='.', output_base='qa-1200'):
+def process_files(input_dir='.', output_base='qa-1300'):
     # 获取所有响应文件
     response_files = glob.glob(os.path.join(input_dir, 'prompt_batch*_response.csv'))
 
